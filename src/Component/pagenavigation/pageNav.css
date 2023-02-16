@@ -1,0 +1,19 @@
+.PageNav_container{
+
+ 
+    width: 100%;
+    height: auto;
+    display: flex;
+    font-size: 1.5rem;
+    padding: 1rem 0 1rem 1.3rem;
+    text-transform: capitalize;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+}
+.PageNav_container .NavLink{
+
+   color: rgb(76, 94, 250);
+}
+
+

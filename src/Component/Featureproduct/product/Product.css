@@ -1,0 +1,93 @@
+.cart{
+
+    border: 1px solid lightgray;
+    margin: 0 6rem 0 0;
+    background-color: white;
+    border-radius: .5rem;
+ 
+    
+    
+}
+
+.cart figure img{
+
+    width: 15rem;
+    height: 13rem;
+    padding: .6rem;
+  
+  
+
+}
+.cart figure img:hover{
+
+    background-color: lightgray;
+    animation:slide 1s 1;
+
+    
+}
+@keyframes slide{
+
+   0%{
+     
+    background-color: lightgray;
+
+
+   }
+   25%{
+
+    background-color: lightgray;
+
+   }
+   50%{
+
+    background-color: lightgray;
+
+   }
+   75%{
+
+    background-color: lightgray;
+
+   }
+   100%{
+
+    background-color: lightgray;
+
+   }
+
+
+  
+}
+.cart .caption{
+
+
+    width: max-content;
+    padding: .4rem;
+    border-radius: .5rem;
+    background-color: white;
+    position: absolute;
+    width: 6rem;
+    height: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(181, 181, 234);
+    z-index: 999;
+    opacity: 1;
+    margin-top: -12rem;
+    margin-left: 8rem;
+    
+    
+}
+.card-data{
+
+    display: flex;
+    justify-content: space-around;
+   
+    margin-bottom: .3rem;
+    text-transform: capitalize;
+}
+.card-data h4{
+
+    color: rgb(119, 119, 239);
+    
+}

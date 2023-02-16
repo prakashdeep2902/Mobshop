@@ -1,0 +1,145 @@
+.service_container{
+
+    display: flex;
+    /* border: 1px solid lightgray; */
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff  ;
+    
+}
+.super_fast_delivery{
+
+    background-color: rgb(218, 236, 244);
+    width: 14rem;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    border-radius: 1rem;
+    margin: 1rem;
+    cursor: pointer;
+}
+.CiDeliveryTruck_div{
+
+ background-color: #fff;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.CiDeliveryTruck{
+
+
+
+        font-size: 1.5rem;
+        color: blue;
+
+}
+.NCS-MBG{
+
+
+
+    width: 18rem;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    text-transform: capitalize;
+    border-radius: 1rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+.NCS{
+
+   background-color: rgb(218, 236, 244);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    padding: .5rem 0 .5rem 0;
+    margin: .5rem 0  1.2rem 0;
+}
+.MdSecurity-div{
+
+  
+    display: flex;
+    width: 3rem;
+    height: 3rem;
+    align-items: center;
+    justify-content: center;
+    border-radius:50%;
+    margin-right: .5rem;
+    background-color: #fff;
+}
+
+.MdSecurity{
+
+    font-size: 1.5rem;
+    color: blue;
+}
+.MBG{
+
+    background-color: rgb(218, 236, 244);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    padding: .5rem 0 .5rem 0;
+}
+.GiReceiveMoney-div{
+
+    background-color: #fff;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    
+    
+}
+.GiReceiveMoney{
+
+    font-size: 1.5rem;
+    color: blue;
+}
+.SSPS{
+
+    background-color: rgb(218, 236, 244);
+    width: 14rem;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+.RiSecurePaymentFill-div{
+    background-color: #fff;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+
+}
+.RiSecurePaymentFill{
+
+    font-size: 1.5rem;
+    color: blue;
+   
+}
