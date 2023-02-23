@@ -6,7 +6,7 @@ import './Navbar.css'
 const Navbar = () => {
 
     const [MenuTcon, setMenuTcon] = useState(false)
-    console.log(MenuTcon)
+
 
     return (
         <div className="navbar">

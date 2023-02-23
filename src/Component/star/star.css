@@ -1,0 +1,19 @@
+.rating_container{
+
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: center;
+    align-items: center;
+}
+.rating_container span{
+
+    margin-right:.1rem;
+    font-size: 1.3rem;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(239, 203, 25);
+
+  
+}

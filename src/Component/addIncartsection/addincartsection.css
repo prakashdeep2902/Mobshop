@@ -1,0 +1,59 @@
+.colors{
+
+   
+    display: flex;
+    align-items: center;
+    height: 3rem;
+    width: auto;
+    
+}
+.colors p{
+
+    width: inherit;
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+
+.color_flex{
+
+    display: inline-flex;
+    margin: .5rem;
+    cursor: pointer;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    opacity:.5 ;
+  
+}
+.color_flexL:hover{
+
+    opacity: 1;
+}
+.active{
+
+    opacity: 1;
+ 
+}
+.AddinCartButton{
+
+    display: inline-block;
+    padding: 12px ;
+    font-size: .8rem;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    background: linear-gradient(to right, rgb(71, 94, 241), rgb(100, 123, 246));
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: .5rem;
+
+
+}

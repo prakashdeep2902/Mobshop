@@ -1,0 +1,38 @@
+.container_listView{
+
+ 
+    display: flex;
+    flex-direction: column;
+
+}
+.box-productlist{
+
+    display: flex;
+    margin-top: 1rem;
+
+}
+.container_listView figure{
+
+
+    width: 40%;
+    display: flex;
+    justify-content: center;
+   
+}
+.container_listView figure img{
+
+    width: 18rem;
+    height: 15rem;
+}
+.right_card_data{
+
+    display: flex;
+    flex-direction: column;
+   
+}
+.right_card_data h3{
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    margin-bottom: 1rem;
+}

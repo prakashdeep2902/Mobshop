@@ -8,8 +8,8 @@ const Header = () => {
             <NavLink to="/"  style={{textDecoration:"none"}}>
              
                <div className='icon'>
-                <img src="./images/iconstore.png" alt=""  className='iconmobile'/>
-                <img src="./images/icon.png" alt=""  className='iconname'/>
+                <img src="../images/iconstore.png" alt=""  className='iconmobile'/>
+                <img src="../images/icon.png" alt=""  className='iconname'/>
                </div>
             </NavLink>
             <Navbar/>
