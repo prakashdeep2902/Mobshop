@@ -15,15 +15,10 @@ const Products = () => {
         <Filtersection />
       </div>
 
-        <section className='product-view__short'>
-
-            <div className='sort_filter'>
-              <Sort/>
-            </div>
-            <div className='main__product'>
-              <Productlist/>
-            </div>
-        </section>
+      <div className='product-view__short'>
+        <Sort />
+        <Productlist />
+      </div>
     </div>
   )
 }

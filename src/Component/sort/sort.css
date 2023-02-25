@@ -1,7 +1,30 @@
 .short_container{
 
     display: flex;
-    border: 2px solid red;
+ 
     width: 100%;
     justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.view_button{
+
+  
+    display: flex;
+    height: auto;
+    width: auto;
+}
+.view_button button{
+
+    width: 2rem;
+    height: 2rem;
+    margin: .3rem;
+    cursor: pointer;
+}
+.numofpro{
+
+    font-size: 1.3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: capitalize;
 }

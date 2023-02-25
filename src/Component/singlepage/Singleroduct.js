@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState } from 'react'
-import { NavLink, useParams } from 'react-router-dom'
+import {  useParams } from 'react-router-dom'
 import productContext from '../../context/productContext';
 import PageNav from '../pagenavigation/PageNav';
 import './singlepage.css'
@@ -20,14 +20,15 @@ const Singleroduct = () => {
   const { id } = useParams();
   const context = useContext(productContext);
   const { isSingleLoading, singleProduct, getSingleProduct } = context
-  const { id: alish, name, company, price, colors, image = [{ url: "" }], description, category, stock, stars, reviews } = singleProduct
+  const { id: alish, name, company, price, image = [{ url: "" }], description, stock, stars, reviews } = singleProduct
   let MRP = price + 200000
 
 
   useEffect(() => {
 
     getSingleProduct(`${API}?id=${id}`)
-  }, [])
+    // eslint-disable-next-line 
+  },[])
   const [changeMainImg, setchangeMainImg] = useState(image[0])
 
 

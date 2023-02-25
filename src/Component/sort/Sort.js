@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react' 
 import './sort.css'
 import { BsFillGridFill } from 'react-icons/bs';
 import { BsList } from 'react-icons/bs';
@@ -7,7 +7,7 @@ const Sort = () => {
 
   const { grid_view, setGridView, setListView } = useFilterContext();
   return (
-    <div className='short_container'>
+    <div className='short_container'> 
       <div className='view_button'>
         <button className={grid_view ? 'active sort-btn' : 'sort-btn'}
           onClick={setGridView}>
@@ -17,7 +17,7 @@ const Sort = () => {
           <BsList />
         </button>
       </div>
-      <div className=''>
+      <div className='numofpro'>
         <p>number of products</p>
       </div>
       <div className='dropdown'>

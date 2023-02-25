@@ -3,10 +3,11 @@ import { NavLink } from 'react-router-dom'
 import { FiShoppingCart } from 'react-icons/fi';
 import { CgMenu, CgClose } from 'react-icons/cg';
 import './Navbar.css'
+import { useCartContext } from '../../context/cart_context';
 const Navbar = () => {
 
     const [MenuTcon, setMenuTcon] = useState(false)
-
+   const {totalItem}=useCartContext()
 
     return (
         <div className="navbar">
@@ -20,7 +21,7 @@ const Navbar = () => {
                 <div className='cart-item'>
                     <NavLink to='/cart' className='NavLink'>
                         <div className='carticonAndnumber'>
-                            <span className='cart-total-item'>10</span>
+                            <span className='cart-total-item'>{totalItem}</span>
                             <FiShoppingCart className='cart-trolly' />
                         </div>
 
