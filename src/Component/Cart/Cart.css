@@ -132,3 +132,12 @@ hr{
     padding: .5rem;
 }
 
+
+@media(max-width:450px){
+
+
+    .cart_header{
+
+        width: 100%;
+    }
+}
