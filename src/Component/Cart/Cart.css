@@ -133,11 +133,3 @@ hr{
 }
 
 
-@media(max-width:450px){
-
-
-    .cart_header{
-
-        width: 100%;
-    }
-}
