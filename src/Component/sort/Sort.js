@@ -23,7 +23,7 @@ const Sort = () => {
       <div className='dropdown'>
         <input type="text" />
       </div>
-    </div>
+    </div> 
   )
 }
 

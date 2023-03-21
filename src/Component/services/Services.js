@@ -19,7 +19,7 @@ const Services = () => {
         <div className='NCS'>
           <div className='MdSecurity-div'>
             <MdSecurity className='MdSecurity' />
-          </div>
+          </div> 
           <h4>non-contact shipping</h4>
         </div>
 

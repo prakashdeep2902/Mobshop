@@ -1,12 +1,9 @@
 .cart{
 
     border: 1px solid lightgray;
-    margin: 0 6rem 0 0;
+    margin: 1rem;
     background-color: white;
     border-radius: .5rem;
- 
-    
-    
 }
 
 .cart figure img{
@@ -82,10 +79,9 @@
 
     display: flex;
     justify-content: space-around;
-   
     margin-bottom: .3rem;
     text-transform: capitalize;
-}
+} 
 .card-data h4{
 
     color: rgb(119, 119, 239);

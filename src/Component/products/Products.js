@@ -11,16 +11,16 @@ const Products = () => {
   return (
     <div className='product_container'>
 
-      <div className='filterSection'>
+      <div className='filterSection'> 
         <Filtersection />
-      </div>
-
+      </div> 
+  
       <div className='product-view__short'>
         <Sort />
-        <Productlist />
+        <Productlist /> 
       </div>
     </div>
-  )
+  ) 
 }
 
 export default Products

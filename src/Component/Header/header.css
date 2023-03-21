@@ -1,33 +1,29 @@
 .header{
-
-
-    width: 100%;
     display: flex;
+    width: 100%;
+    flex-wrap: wrap;
     height: 5rem;
-    
-    align-items: center;
-    border-bottom: 1px solid gray;
+    border-bottom: 2px solid gray;
     background-color: #fff;
-  
-
+    justify-content: space-between;
+ 
 }
 .header .icon{
-
-    width: 10rem;
-    height: 2rem;
-    padding: 2rem;
-    border: none;
-     display: flex;
+    display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
     text-transform: uppercase;
-
-   
+    flex-direction: row;
+    padding: 1rem;
+ 
 }
 .header .icon .iconmobile{
 
     width: 3rem;
     height: 3rem;
+  
+
 }
 .header .icon .iconname{
    
@@ -36,4 +32,105 @@
    
   
 }
+.navbar {
 
+
+    position: relative;
+    display: flex;
+    height: inherit;
+    flex-wrap: wrap;
+
+    width: auto;
+    width: 50%;
+    justify-content: space-evenly;
+    
+}
+.NavLink{
+
+    text-decoration: none;
+} 
+
+.navbar-list{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  
+   
+   
+}
+.navbar-list li{
+
+    margin: 1.4rem;
+    border: 1px solid gray;
+    display: flex;
+    width: 5rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: .5rem;
+    cursor: pointer;
+   flex-wrap: wrap;
+    
+     
+}
+.cart-item
+{ 
+
+ width: 5rem;
+ height: 3rem;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+
+
+ 
+}
+.carticonAndnumber{
+
+    display: flex;
+    flex-direction: column;
+}
+.carticonAndnumber .cart-total-item{
+
+ 
+    font-size: 1rem;
+    margin-bottom: -5px;
+    border-radius: 50%;
+    background-color: skyblue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.carticonAndnumber .cart-trolly{
+
+    font-size: 2rem;
+    color: black;
+}
+
+@media(max-width:450px)
+{
+    .header{
+
+       
+        display: flex;
+    }
+    .navbar
+    {
+        border: 2px solid red;
+        width: 100%;
+        height: 100%;
+        display: none;
+    }
+
+}
+
+
+
+
+
+ 
+ 

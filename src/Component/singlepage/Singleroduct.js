@@ -12,10 +12,10 @@ import AddInCartSection from '../addIncartsection/AddInCartSection';
 
 
 
-const API = 'https://api.pujakaitem.com/api/products'
+const API = 'https://api.pujakaitem.com/api/products' 
 
 
-const Singleroduct = () => {
+const Singleroduct = () => {  
 
   const { id } = useParams();
   const context = useContext(productContext);

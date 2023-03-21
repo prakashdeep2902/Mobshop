@@ -1,11 +1,12 @@
 .service_container{
 
     display: flex;
-    /* border: 1px solid lightgray; */
+    border: 1px solid lightgray;
     height: auto;
     justify-content: center;
     align-items: center;
     background-color: #fff  ;
+    flex-wrap: wrap;
     
 }
 .super_fast_delivery{

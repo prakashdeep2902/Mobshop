@@ -6,17 +6,21 @@ import Product from './product/Product'
 const Featureproduct = () => {
 
     const context = useContext(productContext)
-    const { isLoading, featureProducts } = context 
+    const { isLoading, featureProducts } = context
 
     if (isLoading) {
 
         return <div><h1>....loding</h1></div>
-    } 
+    }
     return (
         <section>
             <div className='featureP_container'>
-                <div className='intro-data'>Cheak Now!</div>
-                <div className='common-heading'>Our Feature Services</div>
+                <div className='intro-data'>
+                   <p>Cheak Now!</p>
+                   <p>Our Feature Services</p>
+                   
+                </div>
+
                 <div className='items'>
                     {
 

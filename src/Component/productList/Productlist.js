@@ -2,6 +2,7 @@ import React from 'react'
 import { useFilterContext } from '../../context/filter_context'
 import GridView from '../gridview/GridView'
 import ListView from '../listview/ListView'
+import './Productlist'  
 const Productlist = () => {
   const { filter_products, grid_view } = useFilterContext()
 
@@ -12,6 +13,7 @@ const Productlist = () => {
   if (grid_view === false) {
     return <ListView filter_products={filter_products} />
   }
-}
+} 
 
 export default Productlist
+ 

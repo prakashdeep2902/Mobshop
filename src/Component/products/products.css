@@ -1,14 +1,25 @@
+
 .product_container{
+    display: flex;
+ 
+    justify-content: space-around;
 
    
+}
+.filterSection{
+
     display: flex;
-    justify-content: center;
+    width: 30%;
+    justify-content: flex-end;
+
 }
 .product-view__short{
 
-   
-    width: auto;
+
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
+   width: 60%;
+ ;
 }

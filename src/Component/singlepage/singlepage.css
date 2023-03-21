@@ -3,17 +3,19 @@
    
     height: auto;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-   
     margin: 2rem;
+  
+   
 }
 .product_detail{
 
     width:70%;
     height: auto;
     display: flex;
- 
+   
 }
 .image_detail{
 
@@ -22,6 +24,7 @@
      width: auto;
     justify-content: center;
     align-items: center;
+  
 }
 .small_image{
 
@@ -62,6 +65,7 @@
     display: flex;
     text-transform: capitalize;
     color: rgb(28, 170, 225);
+  
 }
 .rating_product{
 
@@ -131,9 +135,9 @@
    margin-left: .3rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-hr:first-child{
+hr{
 
-    border: 2px solid rgb(86, 75, 75);
+    width: 100%;
     
 }
 .brand{
@@ -192,7 +196,7 @@ hr:first-child{
 
  
     display: flex;
-}
+} 
 .AddinCartButton button{
 
     display: inline-block;
@@ -210,6 +214,59 @@ hr:first-child{
     cursor: pointer;
     font-family: 'Montserrat', sans-serif;
     margin-top: .5rem;
+
+}
+@media(max-width:450px)
+{
+    .singlepage_container{
+
+        border: 2px solid blue;
+        width: 100%;
+        display: flex;
+        margin: 0%;
+    }
+    .product_detail{
+
+        width: 100%;
+         display: flex;
+         flex-direction: column;
+        border: 2px solid green;
+    }
+    .image_detail{
+
+        display: flex;
+        flex-direction: column;
+    }
+    .about_product{
+
+        border: 2px solid red;
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        width: 100%;
+    }
+    .AddinCartButton button{
+
+       
+        padding: 12px ;
+        font-size: .8rem;
+        font-weight: bold;
+        text-align: center;
+        text-transform: uppercase;
+        background: linear-gradient(to right, rgb(71, 94, 241), rgb(100, 123, 246));
+        color: #fff;
+        border: none;
+        border-radius: .5rem;
+  
+       
+    }
+    hr{
+
+       
+        width: 100%;
+        display: none;
+        
+    }
 
 }
 
