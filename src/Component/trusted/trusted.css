@@ -2,10 +2,13 @@
 
     border-top: 1px solid lightgray ;
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     height: 10rem;
     flex-direction: column;
     margin-top: 1rem;
+   
+    
 }
 .trusted-heading{
 
@@ -53,4 +56,42 @@
     font-size: 1.6rem;
     text-transform: capitalize;
     color: gray;
+}
+@media(max-width:450px)
+{
+    
+    .trusted-container{
+        
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .trusted-heading{
+
+       
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .trusted-heading p{
+
+        font-weight: bold;
+     
+    }
+    .componey-name{
+
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+       
+        
+     
+
+    }
+    .componey-name .componey{
+
+        border:  2px solid red;
+        display: flex;
+        flex-direction: column;
+    }
 }

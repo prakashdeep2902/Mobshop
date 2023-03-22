@@ -4,10 +4,12 @@ section{
 
     display: flex;
     width: 100%;
+    flex-wrap: wrap;
     background-color: rgb(239, 251, 255);
     margin-bottom: 4rem;
     align-items: center;
     justify-content: center;
+
    
   
 }
@@ -21,6 +23,7 @@ section{
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
+
     
   
     
@@ -35,6 +38,9 @@ section{
     width: 100;
    flex-direction: column;
     margin-left: 1rem;
+
+    flex-wrap: wrap;
+    padding: 0 0 1rem 1rem;
   
     
 }
@@ -42,6 +48,7 @@ section{
 {
   
     color: rgb(71, 94, 241);
+   
 
 }
 .intro-data p:last-child
@@ -52,12 +59,16 @@ section{
 
     font-size: 2rem;
     font-weight: 800;
-    border: 2px solid red;
+   
 }
 .items{
 
     display: flex;
     width: auto;
+    flex-wrap: wrap;
     margin-top: 2rem;
+ 
+    justify-content: center;
+    align-items: center;
 
 }

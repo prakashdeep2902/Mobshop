@@ -21,7 +21,7 @@ const Featureproduct = () => {
                    
                 </div>
 
-                <div className='items'>
+                <div className='items'> 
                     {
 
                         featureProducts.map((curelem) => {

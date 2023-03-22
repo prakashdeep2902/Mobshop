@@ -24,7 +24,7 @@ const Trusted = () => {
           <SiSamsung  className='componey-logo'/>
           <span>samsung</span>
         </div>
-        <div className='componey'>
+        <div className='componey'> 
          <AiFillApple className='componey-logo'/>
          <span>apple</span>
         </div>

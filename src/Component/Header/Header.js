@@ -9,7 +9,7 @@ const Header = () => {
     const { totalItem } = useCartContext()
     return (
         <div className='header'> 
-            <NavLink to="/"> 
+            <NavLink to="/">  
 
                 <div className='icon'>
                     <img src="../images/iconstore.png" alt="" className='iconmobile' />
